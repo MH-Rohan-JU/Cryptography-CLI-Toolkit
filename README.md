@@ -6,7 +6,9 @@
 ![alt text](<./screenshots/Screenshot from 2026-03-11 13-45-48.png>)
 
 ## Disclaimer
-The ```venv/bin/activate``` is configured mainly for fish. If you face issues with activating the virtual environment using bash then you're suggested to use fish(friendly interactive shell). Or you can continue with the bash by changing these two lines: ![alt text](./screenshots/image.png) Replace them with 
+The ```venv/bin/activate``` is configured mainly for fish. If you face issues with activating the virtual environment using bash then you're suggested to use fish(friendly interactive shell). Or you can continue with the bash by changing these two lines: 
+![alt text](./screenshots/image.png) 
+Replace them with:
 ```
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/"bin":$PATH"
